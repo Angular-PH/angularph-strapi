@@ -4,6 +4,6 @@ module.exports = ({ env }) => ({
     url: "https://angularph-api.azurewebsites.net",
     admin: {
       url: "https://blue-island-06fc01600.2.azurestaticapps.net",
-      serveAdminPanel: false,
+      serveAdminPanel: true,
     },
 });
