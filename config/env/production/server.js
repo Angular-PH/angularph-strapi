@@ -3,7 +3,7 @@ module.exports = ({ env }) => ({
     port: env.int("PORT", 1337),
     url: "https://angularph-api.azurewebsites.net",
     admin: {
-      url: "https://blue-island-06fc01600.2.azurestaticapps.net/",
-      serveAdminPanel: false,
+      url: "https://blue-island-06fc01600.2.azurestaticapps.net",
+      serveAdminPanel: true,
     },
 });
