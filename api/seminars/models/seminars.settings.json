@@ -2,7 +2,8 @@
   "kind": "collectionType",
   "collectionName": "seminars",
   "info": {
-    "name": "seminars"
+    "name": "seminars",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -17,7 +18,7 @@
     "description": {
       "type": "richtext"
     },
-    "finished": {
+    "done": {
       "type": "boolean"
     },
     "image": {
@@ -31,6 +32,12 @@
       "plugin": "upload",
       "required": false,
       "pluginOptions": {}
+    },
+    "date": {
+      "type": "datetime"
+    },
+    "url": {
+      "type": "string"
     }
   }
 }
