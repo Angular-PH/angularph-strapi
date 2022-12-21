@@ -2,7 +2,8 @@
   "kind": "collectionType",
   "collectionName": "registrations",
   "info": {
-    "name": "Registration"
+    "name": "Registration",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -33,6 +34,9 @@
       "type": "string"
     },
     "position": {
+      "type": "string"
+    },
+    "eventType": {
       "type": "string"
     }
   }
