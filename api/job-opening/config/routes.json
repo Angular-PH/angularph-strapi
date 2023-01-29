@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/job-openings",
+      "handler": "job-opening.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/job-openings/count",
+      "handler": "job-opening.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/job-openings/:id",
+      "handler": "job-opening.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/job-openings",
+      "handler": "job-opening.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/job-openings/:id",
+      "handler": "job-opening.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/job-openings/:id",
+      "handler": "job-opening.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
